@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Teko:wght@500&display=swap');
+
+.mySkills{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    background-color: #243E36;
+    border: 8px solid #A8763E;
+    padding: 20px;
+}
+
+.myWork{
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 30px;
+    border: 2px solid #A8763E;
+    border-radius: 12px;
+    padding-bottom: 0;
+}
+
+.content-left{
+    width: 400px;
+    padding: 30px;
+}
+
+.content-right{
+    padding: 0;
+    width: 301px;
+}
+
+p{
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-family: teko, Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: #243E36;
+}
+
+h2{
+    font-family: teko, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #243E36;
+}
+
+button{
+    font-family: lato, Arial, Helvetica, sans-serif;
+    color:#243E36;
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 6px;
+    width: 170px;
+    border: 2px solid #243E36;
+    border-radius: 20px;
+}
+
+.logos{
+    height: 70px;
+}
+
+
+@media screen and (max-width:600px){
+
+.flexContainer{
+    flex-direction: row;
+}
+
+.logos{
+    height: 25px;
+}
+
+.card{
+    flex-direction: column;
+    width: 72%;
+}
+
+.content-left{
+    width: 285px;
+    padding-left: 35px;
+}
+
+.content-right{
+    padding: 0;
+}
+
+p{
+    font-size: 11px;
+}
+
+h2{
+    font-size: 20px;
+}
+button{
+    font-size: 10px;
+    padding: 3px;
+    width: 120px;
+    border: 1px solid #243E36;
+}
+}
